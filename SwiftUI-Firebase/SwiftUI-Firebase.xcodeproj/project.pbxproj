@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		79E3E4532C34AD82009F1F36 /* SwiftUI_FirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E4522C34AD82009F1F36 /* SwiftUI_FirebaseApp.swift */; };
-		79E3E4552C34AD82009F1F36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E4542C34AD82009F1F36 /* ContentView.swift */; };
 		79E3E4572C34AD83009F1F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E3E4562C34AD83009F1F36 /* Assets.xcassets */; };
 		79E3E45A2C34AD83009F1F36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E3E4592C34AD83009F1F36 /* Preview Assets.xcassets */; };
 		79E3E4622C34AFC2009F1F36 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 79E3E4612C34AFC2009F1F36 /* FirebaseAuth */; };
@@ -21,7 +20,6 @@
 /* Begin PBXFileReference section */
 		79E3E44F2C34AD82009F1F36 /* SwiftUI-Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E3E4522C34AD82009F1F36 /* SwiftUI_FirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FirebaseApp.swift; sourceTree = "<group>"; };
-		79E3E4542C34AD82009F1F36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		79E3E4562C34AD83009F1F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79E3E4592C34AD83009F1F36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		79E3E4692C34B0BD009F1F36 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				79E3E4522C34AD82009F1F36 /* SwiftUI_FirebaseApp.swift */,
-				79E3E4542C34AD82009F1F36 /* ContentView.swift */,
 				79E3E4692C34B0BD009F1F36 /* FirebaseManager.swift */,
 				79E3E4562C34AD83009F1F36 /* Assets.xcassets */,
 				79E3E4582C34AD83009F1F36 /* Preview Content */,
@@ -158,7 +155,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				79E3E46A2C34B0BD009F1F36 /* FirebaseManager.swift in Sources */,
-				79E3E4552C34AD82009F1F36 /* ContentView.swift in Sources */,
 				79E3E4532C34AD82009F1F36 /* SwiftUI_FirebaseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
