@@ -19,6 +19,7 @@
 		79E3E4722C34B43B009F1F36 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E4712C34B43B009F1F36 /* RegisterViewModel.swift */; };
 		79E3E4742C34B472009F1F36 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E4732C34B472009F1F36 /* LoginView.swift */; };
 		79E3E4762C34B485009F1F36 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E4752C34B485009F1F36 /* LoginViewModel.swift */; };
+		79E3E4782C352A1E009F1F36 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E4772C352A1E009F1F36 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		79E3E4712C34B43B009F1F36 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		79E3E4732C34B472009F1F36 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		79E3E4752C34B485009F1F36 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		79E3E4772C352A1E009F1F36 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				79E3E4522C34AD82009F1F36 /* SwiftUI_FirebaseApp.swift */,
 				79E3E4692C34B0BD009F1F36 /* FirebaseManager.swift */,
+				79E3E4772C352A1E009F1F36 /* Model.swift */,
 				79E3E4732C34B472009F1F36 /* LoginView.swift */,
 				79E3E4752C34B485009F1F36 /* LoginViewModel.swift */,
 				79E3E46D2C34B250009F1F36 /* RegisterView.swift */,
@@ -166,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E3E4782C352A1E009F1F36 /* Model.swift in Sources */,
 				79E3E46E2C34B250009F1F36 /* RegisterView.swift in Sources */,
 				79E3E46A2C34B0BD009F1F36 /* FirebaseManager.swift in Sources */,
 				79E3E4762C34B485009F1F36 /* LoginViewModel.swift in Sources */,
