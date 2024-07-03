@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_FirebaseApp: App {
     var body: some Scene {
         WindowGroup {
-            RegisterView()
+            MainView()
         }
     }
 }

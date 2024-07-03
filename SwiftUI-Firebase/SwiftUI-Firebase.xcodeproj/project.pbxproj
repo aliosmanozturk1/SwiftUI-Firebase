@@ -21,6 +21,7 @@
 		79E3E4762C34B485009F1F36 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E4752C34B485009F1F36 /* LoginViewModel.swift */; };
 		79E3E4782C352A1E009F1F36 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E4772C352A1E009F1F36 /* Model.swift */; };
 		79E3E47A2C35344B009F1F36 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E4792C35344B009F1F36 /* MainView.swift */; };
+		79E3E47C2C356565009F1F36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79E3E47B2C356565009F1F36 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		79E3E4752C34B485009F1F36 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		79E3E4772C352A1E009F1F36 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		79E3E4792C35344B009F1F36 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		79E3E47B2C356565009F1F36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				79E3E4752C34B485009F1F36 /* LoginViewModel.swift */,
 				79E3E46D2C34B250009F1F36 /* RegisterView.swift */,
 				79E3E4712C34B43B009F1F36 /* RegisterViewModel.swift */,
+				79E3E47B2C356565009F1F36 /* GoogleService-Info.plist */,
 				79E3E4562C34AD83009F1F36 /* Assets.xcassets */,
 				79E3E4582C34AD83009F1F36 /* Preview Content */,
 			);
@@ -162,6 +165,7 @@
 			files = (
 				79E3E45A2C34AD83009F1F36 /* Preview Assets.xcassets in Resources */,
 				79E3E4572C34AD83009F1F36 /* Assets.xcassets in Resources */,
+				79E3E47C2C356565009F1F36 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

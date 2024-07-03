@@ -8,11 +8,34 @@
 import SwiftUI
 
 struct LoginView: View {
+    @ObservedObject var loginViewModel: LoginViewModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            TextField("Email", text: $loginViewModel.email)
+                .autocapitalization(.none)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .padding()
+            SecureField("Password", text: $loginViewModel.password)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .padding()
+            
+            Button("Login") {
+                loginViewModel.login()
+            }
+            .buttonStyle(.borderedProminent)
+            .padding()
+            
+            if !loginViewModel.errorMessage.isEmpty {
+                Text(loginViewModel.errorMessage)
+                    .foregroundColor(.red)
+                    .padding()
+            }
+        }
+        .navigationTitle("Login")
     }
 }
 
 #Preview {
-    LoginView()
+    LoginView(loginViewModel: LoginViewModel())
 }
