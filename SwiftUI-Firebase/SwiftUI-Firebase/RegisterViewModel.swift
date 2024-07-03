@@ -19,11 +19,10 @@ class RegisterViewModel: ObservableObject {
                 self.errorMessage = error.localizedDescription
             } else if let authResult = authResult {
                 self.isRegistered = true
-                
+               
+                let user = User(uid: authResult.user.uid, email: authResult.user.email)
+                print("registered user \(user)")
             }
-            
-            
-            
         }
     }
 }
