@@ -14,14 +14,14 @@ class RegisterViewModel: ObservableObject {
     @Published var isRegistered = false
     
     func register() {
-        FirebaseManager.shared.auth.createUser(withEmail: email, password: password) { authResult, error in
+        FirebaseManager.shared.auth.createUser(withEmail: email, password: password) { result, error in
             if let error = error {
                 self.errorMessage = error.localizedDescription
-            } else if let authResult = authResult {
+            } else if let result = result {
                 self.isRegistered = true
-               
-                let user = User(uid: authResult.user.uid, email: authResult.user.email)
-                print("registered user \(user)")
+                let user = User(uid: result.user.uid, email: result.user.email)
+                
+                print("Successfully logged in as user: \(user)")
             }
         }
     }
