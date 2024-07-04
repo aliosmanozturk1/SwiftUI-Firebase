@@ -22,6 +22,11 @@
 		79E3E4782C352A1E009F1F36 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E4772C352A1E009F1F36 /* Model.swift */; };
 		79E3E47A2C35344B009F1F36 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E4792C35344B009F1F36 /* MainView.swift */; };
 		79E3E47C2C356565009F1F36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79E3E47B2C356565009F1F36 /* GoogleService-Info.plist */; };
+		79E3E47E2C356748009F1F36 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E47D2C356748009F1F36 /* HomeView.swift */; };
+		79E3E4862C3582BA009F1F36 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 79E3E4852C3582BA009F1F36 /* Lottie */; };
+		79E3E4882C358380009F1F36 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E4872C358380009F1F36 /* SplashScreenView.swift */; };
+		79E3E48A2C3583DD009F1F36 /* Hello_Animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 79E3E4892C3583DD009F1F36 /* Hello_Animation.json */; };
+		79E3E48C2C3594A7009F1F36 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E48B2C3594A7009F1F36 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,10 @@
 		79E3E4772C352A1E009F1F36 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		79E3E4792C35344B009F1F36 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		79E3E47B2C356565009F1F36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		79E3E47D2C356748009F1F36 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		79E3E4872C358380009F1F36 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		79E3E4892C3583DD009F1F36 /* Hello_Animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Hello_Animation.json; sourceTree = "<group>"; };
+		79E3E48B2C3594A7009F1F36 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E3E4862C3582BA009F1F36 /* Lottie in Frameworks */,
 				79E3E4642C34AFC2009F1F36 /* FirebaseDatabase in Frameworks */,
 				79E3E4682C34AFC2009F1F36 /* FirebaseStorage in Frameworks */,
 				79E3E4622C34AFC2009F1F36 /* FirebaseAuth in Frameworks */,
@@ -74,14 +84,12 @@
 			isa = PBXGroup;
 			children = (
 				79E3E4522C34AD82009F1F36 /* SwiftUI_FirebaseApp.swift */,
-				79E3E4692C34B0BD009F1F36 /* FirebaseManager.swift */,
-				79E3E4772C352A1E009F1F36 /* Model.swift */,
-				79E3E4792C35344B009F1F36 /* MainView.swift */,
-				79E3E4732C34B472009F1F36 /* LoginView.swift */,
-				79E3E4752C34B485009F1F36 /* LoginViewModel.swift */,
-				79E3E46D2C34B250009F1F36 /* RegisterView.swift */,
-				79E3E4712C34B43B009F1F36 /* RegisterViewModel.swift */,
+				79E3E4812C3569CF009F1F36 /* Models */,
+				79E3E47F2C3569AD009F1F36 /* Views */,
+				79E3E4802C3569B5009F1F36 /* ViewModels */,
+				79E3E4832C356AD9009F1F36 /* Utilities */,
 				79E3E47B2C356565009F1F36 /* GoogleService-Info.plist */,
+				79E3E4892C3583DD009F1F36 /* Hello_Animation.json */,
 				79E3E4562C34AD83009F1F36 /* Assets.xcassets */,
 				79E3E4582C34AD83009F1F36 /* Preview Content */,
 			);
@@ -94,6 +102,44 @@
 				79E3E4592C34AD83009F1F36 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79E3E47F2C3569AD009F1F36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79E3E46D2C34B250009F1F36 /* RegisterView.swift */,
+				79E3E4732C34B472009F1F36 /* LoginView.swift */,
+				79E3E4792C35344B009F1F36 /* MainView.swift */,
+				79E3E47D2C356748009F1F36 /* HomeView.swift */,
+				79E3E4872C358380009F1F36 /* SplashScreenView.swift */,
+				79E3E48B2C3594A7009F1F36 /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		79E3E4802C3569B5009F1F36 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				79E3E4752C34B485009F1F36 /* LoginViewModel.swift */,
+				79E3E4712C34B43B009F1F36 /* RegisterViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		79E3E4812C3569CF009F1F36 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				79E3E4772C352A1E009F1F36 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		79E3E4832C356AD9009F1F36 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				79E3E4692C34B0BD009F1F36 /* FirebaseManager.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +163,7 @@
 				79E3E4632C34AFC2009F1F36 /* FirebaseDatabase */,
 				79E3E4652C34AFC2009F1F36 /* FirebaseFirestore */,
 				79E3E4672C34AFC2009F1F36 /* FirebaseStorage */,
+				79E3E4852C3582BA009F1F36 /* Lottie */,
 			);
 			productName = "SwiftUI-Firebase";
 			productReference = 79E3E44F2C34AD82009F1F36 /* SwiftUI-Firebase.app */;
@@ -148,6 +195,7 @@
 			mainGroup = 79E3E4462C34AD82009F1F36;
 			packageReferences = (
 				79E3E4602C34AFC2009F1F36 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				79E3E4842C3582BA009F1F36 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = 79E3E4502C34AD82009F1F36 /* Products */;
 			projectDirPath = "";
@@ -166,6 +214,7 @@
 				79E3E45A2C34AD83009F1F36 /* Preview Assets.xcassets in Resources */,
 				79E3E4572C34AD83009F1F36 /* Assets.xcassets in Resources */,
 				79E3E47C2C356565009F1F36 /* GoogleService-Info.plist in Resources */,
+				79E3E48A2C3583DD009F1F36 /* Hello_Animation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,14 +225,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E3E47E2C356748009F1F36 /* HomeView.swift in Sources */,
 				79E3E4782C352A1E009F1F36 /* Model.swift in Sources */,
 				79E3E47A2C35344B009F1F36 /* MainView.swift in Sources */,
 				79E3E46E2C34B250009F1F36 /* RegisterView.swift in Sources */,
 				79E3E46A2C34B0BD009F1F36 /* FirebaseManager.swift in Sources */,
 				79E3E4762C34B485009F1F36 /* LoginViewModel.swift in Sources */,
 				79E3E4532C34AD82009F1F36 /* SwiftUI_FirebaseApp.swift in Sources */,
+				79E3E4882C358380009F1F36 /* SplashScreenView.swift in Sources */,
 				79E3E4742C34B472009F1F36 /* LoginView.swift in Sources */,
 				79E3E4722C34B43B009F1F36 /* RegisterViewModel.swift in Sources */,
+				79E3E48C2C3594A7009F1F36 /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +451,14 @@
 				minimumVersion = 10.28.1;
 			};
 		};
+		79E3E4842C3582BA009F1F36 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -421,6 +481,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 79E3E4602C34AFC2009F1F36 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		79E3E4852C3582BA009F1F36 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79E3E4842C3582BA009F1F36 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
